@@ -50,7 +50,7 @@ const Hero = () => {
                     >
                         Let us help you find the coverage that is right for you
                     </Typography>
-                    <Button variant="contained" size="large">
+                    <Button href="#contact" variant="contained" size="large">
                         Get Started
                     </Button>
                 </Box>

@@ -45,14 +45,14 @@ const Bio = () => {
                         Let's Work on this Together
                     </Typography>
                     <Typography sx={{ maxWidth: "45ch" }}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Ducimus dolorum suscipit dolore non soluta aliquam optio
-                        voluptas doloremque adipisci doloribus? Doloribus,
-                        ratione quo aperiam accusamus perspiciatis non, iste nam
-                        maxime ad totam dolorum reiciendis, autem tenetur
-                        perferendis nobis similique ut inventore reprehenderit.
-                        Repellat aliquid distinctio quae ab possimus, rerum
-                        repudiandae.
+                        My name is Charlene Morris and I am a Licensed Insurance
+                        Broker. I have been visiting homes and helping people
+                        navigate the field of Medicare and Medicaid options
+                        since 2006. I always explain details thoroughly and I
+                        work hard to effectively and professionally address
+                        consumers' concerns. I am proud of my exceptional
+                        interpersonal skills and my ability to quickly handle
+                        challenges.
                     </Typography>
                 </Box>
             </Box>

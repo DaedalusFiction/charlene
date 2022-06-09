@@ -5,16 +5,16 @@ import showcaseImage from "../images/showcaseImage.jpg";
 const Showcase = () => {
     const showcaseItems = [
         {
-            icon: "icon",
-            body: "This is the body of the item. I'm just writing things now so that it fills up the space. ",
+            icon: "Our Promise",
+            body: "Don't stress over finding affordable health insurance when you are on Medicare. Leave the heavy lifting up to us.",
         },
         {
-            icon: "icon",
-            body: "This is the body of the item. I'm just writing things now so that it fills up the space. ",
+            icon: "Need Coverage?",
+            body: "We will find insurance plans to fit your needs, at no cost to you.",
         },
         {
-            icon: "icon",
-            body: "This is the body of the item. I'm just writing things now so that it fills up the space. ",
+            icon: "Your Journey",
+            body: "Once you become our client you will have a broker you can contact with any questions or concerns about your health insurance coverage.",
         },
     ];
     return (

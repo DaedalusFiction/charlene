@@ -1,12 +1,17 @@
 import { Box, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
+import drugs from "../images/drugs.png";
+import healthcare from "../images/healthcare.png";
+import caduceus from "../images/caduceus.png";
+import vision from "../images/vision.png";
 
 const Services = () => {
     const serviceBoxes = [
-        { title: "title-one", icon: "iconOne" },
-        { title: "title-two", icon: "iconTwo" },
-        { title: "title-three", icon: "iconThree" },
+        { title: "Advantage Health Plans", icon: caduceus },
+        { title: "Perscription Drug Plans", icon: drugs },
+        { title: "Supplement Plans", icon: healthcare },
+        { title: "Dental and Vision", icon: vision },
     ];
     return (
         <Box sx={{ backgroundColor: "var(--bg-accent)" }}>
@@ -21,21 +26,26 @@ const Services = () => {
                 >
                     {serviceBoxes.map((item) => {
                         return (
-                            <Box>
-                                <Box
-                                    sx={{
-                                        borderRadius: "100%",
-                                        backgroundColor: "white",
-                                        padding: "6rem",
+                            <Box
+                                sx={{
+                                    display: "flex",
+                                    flexDirection: "column",
+                                    alignItems: "center",
+                                    gap: "1rem",
+                                }}
+                            >
+                                <img
+                                    src={item.icon}
+                                    alt=""
+                                    style={{
+                                        maxWidth: "10rem",
                                     }}
-                                >
-                                    Icon
-                                </Box>
+                                />
                                 <Typography
                                     sx={{
                                         color: "white",
                                         textAlign: "center",
-                                        fontSize: "2rem",
+                                        fontSize: "1.5rem",
                                     }}
                                 >
                                     {item.title}

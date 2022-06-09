@@ -17,7 +17,7 @@ const Contact = () => {
         console.log(email);
     };
     return (
-        <Box sx={{ backgroundColor: "var(--bg-accent)" }}>
+        <Box id="contact" sx={{ backgroundColor: "var(--bg-accent)" }}>
             <Container maxWidth="md">
                 <Box
                     sx={{
@@ -29,10 +29,23 @@ const Contact = () => {
                         padding: "15vw 0",
                     }}
                 >
-                    <Typography variant="h2" sx={{ color: "white" }}>
+                    <Typography
+                        variant="h2"
+                        sx={{
+                            color: "white",
+                            textAlign: "center",
+                            fontSize: "5rem",
+                        }}
+                    >
                         Ready to Get Started?
                     </Typography>
-                    <Typography sx={{ color: "var(--fc-gray-200)" }}>
+                    <Typography
+                        sx={{
+                            color: "white",
+                            textAlign: "center",
+                            fontSize: "1.5rem",
+                        }}
+                    >
                         Call Anytime, Day or Night: (555) 555-5555
                     </Typography>
                     <Box
