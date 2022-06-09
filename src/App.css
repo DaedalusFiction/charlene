@@ -1,5 +1,7 @@
 :root {
     --bg-accent: purple;
+    --fc-gray-200: rgb(224, 224, 224);
+    --fc-gray-400: rgb(195, 195, 195);
 }
 
 * {
