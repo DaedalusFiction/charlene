@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Bio from "./components/Bio";
 import Services from "./components/Services";
 import Testimonial from "./components/Testimonial";
+import Showcase from "./components/Showcase";
 
 function App() {
     const testimonials = [
@@ -21,6 +22,7 @@ function App() {
                 text={testimonials[0].body}
                 speaker={testimonials[0].speaker}
             />
+            <Showcase />
         </>
     );
 }
