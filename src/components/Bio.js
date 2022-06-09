@@ -9,18 +9,27 @@ const Bio = () => {
             <Box
                 sx={{
                     display: "flex",
-                    justifyContent: "space-between",
+                    justifyContent: "center",
+                    flexWrap: "wrap",
                     gap: "3rem",
                     alignItems: "center",
-                    padding: "5vw 0",
+                    padding: "7vw 0",
                 }}
             >
-                <Box>
-                    <img
-                        src={headshot}
-                        alt="Charlene Morris"
-                        style={{ maxWidth: "20rem" }}
-                    />
+                <Box
+                    sx={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                    }}
+                >
+                    <Box>
+                        <img
+                            src={headshot}
+                            alt="Charlene Morris"
+                            style={{ maxWidth: "20rem" }}
+                        />
+                    </Box>
                     <Typography sx={{ textAlign: "center" }}>
                         Charlene Morris
                     </Typography>
@@ -35,7 +44,7 @@ const Bio = () => {
                     >
                         Let's Work on this Together
                     </Typography>
-                    <Typography>
+                    <Typography sx={{ maxWidth: "45ch" }}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Ducimus dolorum suscipit dolore non soluta aliquam optio
                         voluptas doloremque adipisci doloribus? Doloribus,

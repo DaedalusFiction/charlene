@@ -5,9 +5,15 @@ import Bio from "./components/Bio";
 import Services from "./components/Services";
 import Testimonial from "./components/Testimonial";
 import Showcase from "./components/Showcase";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
     const testimonials = [
+        {
+            speaker: "Bobby Boucher",
+            body: '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repellendus consectetur eaque exercitationem, explicabo et blanditiis commodi sed non consequuntur deserunt hic officiis distinctio labore qui accusamus repellat dicta quaerat nihil voluptates eveniet! Error excepturi quidem minus laboriosam iusto vero velit saepe magnam ipsa molestiae sequi facilis in, itaque assumenda."',
+        },
         {
             speaker: "Bobby Boucher",
             body: '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repellendus consectetur eaque exercitationem, explicabo et blanditiis commodi sed non consequuntur deserunt hic officiis distinctio labore qui accusamus repellat dicta quaerat nihil voluptates eveniet! Error excepturi quidem minus laboriosam iusto vero velit saepe magnam ipsa molestiae sequi facilis in, itaque assumenda."',
@@ -23,6 +29,12 @@ function App() {
                 speaker={testimonials[0].speaker}
             />
             <Showcase />
+            <Testimonial
+                text={testimonials[1].body}
+                speaker={testimonials[1].speaker}
+            />
+            <Contact />
+            <Footer />
         </>
     );
 }

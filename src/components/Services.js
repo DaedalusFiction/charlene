@@ -16,7 +16,7 @@ const Services = () => {
                         display: "flex",
                         justifyContent: "space-around",
                         flexWrap: "wrap",
-                        padding: "5vw 0",
+                        padding: "10vw 0",
                     }}
                 >
                     {serviceBoxes.map((item) => {
