@@ -1,5 +1,4 @@
 import { Box, Button, Container, Typography } from "@mui/material";
-import { DOM_KEY_LOCATION } from "@testing-library/user-event/dist/keyboard/types";
 import React from "react";
 import heroImage from "../images/heroImage.jpg";
 
@@ -24,11 +23,13 @@ const Hero = () => {
                     <Typography
                         sx={{ color: "var(--fc-gray-200)", fontSize: "1.2rem" }}
                     >
-                        C.R.M Insurance LLC
+                        C.R.M. Insurance LLC
                     </Typography>
-                    <Typography sx={{ color: "white", fontSize: "1.2rem" }}>
-                        (555) 555-5555
-                    </Typography>
+                    <a href="tel:434-825-5038">
+                        <Typography sx={{ color: "white", fontSize: "1.2rem" }}>
+                            (804) 240-4959
+                        </Typography>
+                    </a>
                 </Box>
                 <Box sx={{ padding: "12vw 0" }}>
                     <Typography
@@ -48,7 +49,8 @@ const Hero = () => {
                             marginBottom: "2em",
                         }}
                     >
-                        Let us help you find the coverage that is right for you
+                        Let us help you find the coverage that is right for you,
+                        at no cost to you
                     </Typography>
                     <Button href="#contact" variant="contained" size="large">
                         Get Started

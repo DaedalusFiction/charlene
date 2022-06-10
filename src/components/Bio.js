@@ -11,7 +11,7 @@ const Bio = () => {
                     display: "flex",
                     justifyContent: "center",
                     flexWrap: "wrap",
-                    gap: "3rem",
+                    gap: "5rem",
                     alignItems: "center",
                     padding: "7vw 0",
                 }}
@@ -27,10 +27,18 @@ const Bio = () => {
                         <img
                             src={headshot}
                             alt="Charlene Morris"
-                            style={{ maxWidth: "20rem" }}
+                            style={{
+                                maxWidth: "20rem",
+                                boxShadow: "0 3px 10px rgb(0 0 0 / 0.2)",
+                            }}
                         />
                     </Box>
-                    <Typography sx={{ textAlign: "center" }}>
+                    <Typography
+                        sx={{
+                            textAlign: "center",
+                            color: "var(--fc-gray-600)",
+                        }}
+                    >
                         Charlene Morris
                     </Typography>
                 </Box>
@@ -40,11 +48,14 @@ const Bio = () => {
                             fontSize: "2rem",
                             fontWeight: "bold",
                             marginBottom: ".5em",
+                            color: "var(--fc-gray-800)",
                         }}
                     >
                         Let's Work on this Together
                     </Typography>
-                    <Typography sx={{ maxWidth: "45ch" }}>
+                    <Typography
+                        sx={{ maxWidth: "45ch", color: "var(--fc-gray-600)" }}
+                    >
                         My name is Charlene Morris and I am a Licensed Insurance
                         Broker. I have been visiting homes and helping people
                         navigate the field of Medicare and Medicaid options

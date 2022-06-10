@@ -24,9 +24,10 @@ const Services = () => {
                         padding: "10vw 0",
                     }}
                 >
-                    {serviceBoxes.map((item) => {
+                    {serviceBoxes.map((item, index) => {
                         return (
                             <Box
+                                key={index}
                                 sx={{
                                     display: "flex",
                                     flexDirection: "column",

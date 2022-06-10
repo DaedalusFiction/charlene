@@ -1,4 +1,4 @@
-import { Paper, Typography } from "@mui/material";
+import { Card, CardContent, Divider, Paper, Typography } from "@mui/material";
 import { Container, Box } from "@mui/system";
 import React from "react";
 import showcaseImage from "../images/showcaseImage.jpg";
@@ -6,15 +6,15 @@ const Showcase = () => {
     const showcaseItems = [
         {
             icon: "Our Promise",
-            body: "Don't stress over finding affordable health insurance when you are on Medicare. Leave the heavy lifting up to us.",
+            body: "Don't stress over finding affordable health insurance while on Medicare. Leave the heavy lifting up to us.",
         },
         {
-            icon: "Need Coverage?",
-            body: "We will find insurance plans to fit your needs, at no cost to you.",
+            icon: "Our Mission",
+            body: "We'll work with you to find the insurance plan that fits your needs, and we'll do it at no cost to you.",
         },
         {
             icon: "Your Journey",
-            body: "Once you become our client you will have a broker you can contact with any questions or concerns about your health insurance coverage.",
+            body: "We're here to help you with any questions or concerns you may have about your health insurance coverage.",
         },
     ];
     return (
@@ -30,28 +30,39 @@ const Showcase = () => {
                 <Box
                     sx={{
                         display: "flex",
-                        flexDirection: "column",
-                        alignItems: "flex-end",
-                        padding: "5vw",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        padding: "7vw 0",
                     }}
                 >
-                    {showcaseItems.map((item) => {
+                    {showcaseItems.map((item, index) => {
                         return (
-                            <Paper
+                            <Card
+                                key={index}
+                                square={true}
                                 sx={{
-                                    display: "flex",
-                                    alignItems: "center",
-                                    gap: "1rem",
-                                    margin: "1rem 0",
+                                    minWidth: 275,
+                                    maxWidth: "12rem",
+                                    margin: "1rem",
                                 }}
                             >
-                                <Box sx={{ padding: "2rem" }}>{item.icon}</Box>
-                                <Typography
-                                    sx={{ padding: "1em", maxWidth: "45ch" }}
-                                >
-                                    {item.body}
-                                </Typography>
-                            </Paper>
+                                <CardContent>
+                                    <Typography
+                                        variant="h5"
+                                        component="div"
+                                        sx={{ margin: "1em 0" }}
+                                    >
+                                        {item.icon}
+                                    </Typography>
+
+                                    <Typography
+                                        variant="body2"
+                                        sx={{ lineHeight: "1.8em" }}
+                                    >
+                                        {item.body}
+                                    </Typography>
+                                </CardContent>
+                            </Card>
                         );
                     })}
                 </Box>

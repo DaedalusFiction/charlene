@@ -11,7 +11,22 @@ const Footer = () => {
                     padding: "2rem 0",
                 }}
             >
-                <Typography>Copyright 2022 C.R.M. Insurance LLC</Typography>
+                <Box>
+                    <Typography sx={{ marginBottom: "1em" }}>
+                        Copyright 2022 C.R.M. Insurance LLC
+                    </Typography>
+                    <Typography sx={{ color: "var(--fc-gray-600)" }}>
+                        P.O. Box 303
+                    </Typography>
+                    <Typography sx={{ color: "var(--fc-gray-600)" }}>
+                        Montpelier, Va 23192
+                    </Typography>
+                    <a href="tel:434-825-5038">
+                        <Typography sx={{ color: "var(--fc-gray-600)" }}>
+                            (804) 240-4959
+                        </Typography>
+                    </a>
+                </Box>
                 <Typography>
                     Website created by{" "}
                     <a
