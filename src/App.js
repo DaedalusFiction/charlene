@@ -16,7 +16,7 @@ function App() {
         },
         {
             speaker: "Diane",
-            body: "My late husband was referred to Charlene by a friend and after meeting with her we went with [her] and have been so thankful. Charlene's guidance directing us to the best policy for our needs has been invaluable. Since my husband passed away, Charlene has been there for me for the past eleven years. I will get a phone call just to ask me how I'm doing. So thoughtful!!  I feel truly blessed to have Charlene not only as my Humana agent but as my friend",
+            body: "My late husband was referred to Charlene by a friend and after meeting with her we went with [her] and have been so thankful. Charlene's guidance directing us to the best policy for our needs has been invaluable. Since my husband passed away, Charlene has been there for me for the past eleven years. I will get a phone call just to ask me how I'm doing. So thoughtful!  I feel truly blessed to have Charlene not only as my agent but as my friend.",
         },
     ];
 
