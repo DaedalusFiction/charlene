@@ -11,9 +11,9 @@ const Bio = () => {
                     display: "flex",
                     justifyContent: "center",
                     flexWrap: "wrap",
-                    gap: "5rem",
+                    gap: { xs: "2rem", md: "5rem" },
                     alignItems: "center",
-                    padding: "7vw 0",
+                    padding: { xs: "4rem 0", md: "7vw 0" },
                 }}
             >
                 <Box

@@ -9,7 +9,7 @@ const Testimonial = ({ text, speaker }) => {
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
-                    padding: "7vw 0",
+                    padding: { xs: "4rem 0", md: "7vw 0" },
                 }}
             >
                 <Box>

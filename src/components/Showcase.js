@@ -30,6 +30,7 @@ const Showcase = () => {
                 <Box
                     sx={{
                         display: "flex",
+                        flexWrap: "wrap",
                         justifyContent: "center",
                         alignItems: "center",
                         padding: "7vw 0",
