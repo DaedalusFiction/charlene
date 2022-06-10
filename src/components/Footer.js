@@ -12,7 +12,7 @@ const Footer = () => {
                 }}
             >
                 <Box>
-                    <Typography sx={{ marginBottom: "1em" }}>
+                    <Typography sx={{ marginBottom: ".5em" }}>
                         Copyright 2022 C.R.M. Insurance LLC
                     </Typography>
                     <Typography sx={{ color: "var(--fc-gray-600)" }}>
@@ -22,21 +22,27 @@ const Footer = () => {
                         Montpelier, Va 23192
                     </Typography>
                     <a href="tel:434-825-5038">
-                        <Typography sx={{ color: "var(--fc-gray-600)" }}>
+                        <Typography
+                            sx={{
+                                color: "var(--fc-gray-600)",
+                                marginBottom: "2em",
+                            }}
+                        >
                             (804) 240-4959
                         </Typography>
                     </a>
+                    <Typography>
+                        Website created by{" "}
+                        <a
+                            href="https://davidjsorensen.com"
+                            target="_blank"
+                            rel="noreferrer"
+                            style={{ textDecoration: "underline" }}
+                        >
+                            David J. Sorensen
+                        </a>
+                    </Typography>
                 </Box>
-                <Typography>
-                    Website created by{" "}
-                    <a
-                        href="https://davidjsorensen.com"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        David J. Sorensen
-                    </a>
-                </Typography>
             </Box>
         </Container>
     );
