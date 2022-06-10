@@ -8,20 +8,31 @@ import vision from "../images/vision.png";
 
 const Services = () => {
     const serviceBoxes = [
-        { title: "Advantage Health Plans", icon: caduceus },
-        { title: "Perscription Drug Plans", icon: drugs },
-        { title: "Supplement Plans", icon: healthcare },
+        { title: "Medicare Advantage", icon: caduceus },
+        { title: "Perscription Drug", icon: drugs },
+        { title: "Supplement", icon: healthcare },
         { title: "Dental and Vision", icon: vision },
     ];
     return (
         <Box sx={{ backgroundColor: "var(--bg-accent)" }}>
             <Container>
+                <Typography
+                    variant="h3"
+                    sx={{
+                        textAlign: "center",
+                        paddingTop: "1em",
+                        color: "white",
+                        fontWeight: "bold",
+                    }}
+                >
+                    Insurance Plans
+                </Typography>
                 <Box
                     sx={{
                         display: "flex",
                         justifyContent: "space-around",
                         flexWrap: "wrap",
-                        padding: "10vw 0",
+                        padding: "5vw 0 10vw 0",
                     }}
                 >
                     {serviceBoxes.map((item, index) => {

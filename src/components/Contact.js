@@ -89,7 +89,7 @@ const Contact = () => {
                                 fontSize: "1.5rem",
                             }}
                         >
-                            Call Anytime, Day or Night: (804) 240-4959
+                            Call Mon-Fri, 8-5: (804) 240-4959
                         </Typography>
                     </a>
                     <Box
