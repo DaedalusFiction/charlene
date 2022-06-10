@@ -41,10 +41,10 @@ const Contact = () => {
 
         emailjs
             .send(
-                "service_tmo76bn",
-                "template_ggro2co",
+                "service_tfru8q8",
+                "template_fku5ces",
                 templateParams,
-                "aMDOy4kUud9rd0Yg9"
+                "t5M8T5zg8VbDQxPRy"
             )
             .then(
                 function (response) {
@@ -77,6 +77,7 @@ const Contact = () => {
                             color: "white",
                             textAlign: "center",
                             fontSize: "5rem",
+                            fontWeight: "bold",
                         }}
                     >
                         Ready to Get Started?

@@ -50,7 +50,7 @@ const Hero = () => {
                         }}
                     >
                         Let us help you find the coverage that is right for you,
-                        at no cost to you
+                        at <strong>absolutely no cost to you</strong>
                     </Typography>
                     <Button href="#contact" variant="contained" size="large">
                         Get Started

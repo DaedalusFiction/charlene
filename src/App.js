@@ -12,7 +12,7 @@ function App() {
     const testimonials = [
         {
             speaker: "George",
-            body: "We have been working with Charlene for a number of years. When we began I was reluctant to change insurance carriers, but she was persistent [...] We continue to receive requests from other insurance carriers but find her company and service to be the best [...] If she wants to give my name to anyone who wanted super service, please tell them to call me.",
+            body: "We have been working with Charlene for a number of years. When we began I was reluctant to change insurance carriers, but she was persistent [...] We continue to receive requests from other insurance carriers but find her company and service to be the best [...] If she wants to give my name to anyone who wants super service, please tell them to call me.",
         },
         {
             speaker: "Diane",
