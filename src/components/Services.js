@@ -43,6 +43,7 @@ const Services = () => {
                                     display: "flex",
                                     flexDirection: "column",
                                     alignItems: "center",
+                                    margin: "0 .5rem",
                                     gap: "1rem",
                                 }}
                             >
