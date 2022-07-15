@@ -10,7 +10,7 @@ const Services = () => {
     const serviceBoxes = [
         { title: "Medicare Advantage", icon: caduceus },
         { title: "Perscription Drug", icon: drugs },
-        { title: "Supplement", icon: healthcare },
+        { title: "Supplemental", icon: healthcare },
         { title: "Dental and Vision", icon: vision },
     ];
     return (

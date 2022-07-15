@@ -68,7 +68,7 @@ const Contact = () => {
                         alignItems: "center",
                         justifyContent: "center",
                         gap: "1rem",
-                        padding: "15vw 0",
+                        padding: "10vw 0 5vw 0",
                     }}
                 >
                     <Typography
@@ -96,13 +96,24 @@ const Contact = () => {
                     <Box
                         sx={{
                             display: "flex",
+                            flexDirection: "column",
                             gap: "1rem",
                             alignItems: "center",
                         }}
                     >
                         {!submitted && (
-                            <>
-                                <Paper>
+                            <Box>
+                                <Typography
+                                    variant="h5"
+                                    sx={{
+                                        color: "white",
+                                        marginBottom: ".5em",
+                                        textAlign: "center",
+                                    }}
+                                >
+                                    Share Your Email:
+                                </Typography>
+                                <Paper sx={{ marginBottom: "1em" }}>
                                     <TextField
                                         color="secondary"
                                         label="Email"
@@ -113,14 +124,33 @@ const Contact = () => {
                                 </Paper>
                                 <Button
                                     variant="contained"
+                                    fullWidth
                                     disabled={error}
                                     size="large"
                                     onClick={handleSendEmail}
                                 >
                                     Send
                                 </Button>
-                            </>
+                            </Box>
                         )}
+                        <Typography
+                            sx={{
+                                color: "white",
+                                fontSize: "1.5rem",
+                            }}
+                        >
+                            or
+                        </Typography>
+                        <Box>
+                            <iframe
+                                title="request-quote"
+                                width="500"
+                                scrolling="no"
+                                height="400"
+                                frameborder="0"
+                                src="https://www.freemedicarereport.com/comparison_form/charlenemorris.com?bg_color=D739A4&cta_color=2CF6B3&plan=G"
+                            ></iframe>
+                        </Box>
                         {submitted && (
                             <Typography sx={{ color: "white" }}>
                                 Thank you! We will be in touch shortly.
