@@ -12,7 +12,7 @@ const Hero = () => {
                 backgroundPosition: "50% 65%",
             }}
         >
-            <Container maxWidth="xl">
+            <Container>
                 <Box
                     sx={{
                         display: "flex",
@@ -31,12 +31,12 @@ const Hero = () => {
                         </Typography>
                     </a>
                 </Box>
-                <Box sx={{ padding: "14vw 0" }}>
+                <Box sx={{ padding: "10vw 0" }}>
                     <Typography
                         variant="h1"
                         sx={{
                             color: "white",
-                            fontSize: "clamp(3rem, 8vw, 8rem)",
+                            fontSize: "clamp(3rem, 7vw, 7rem)",
                             lineHeight: "1.2em",
                         }}
                     >
@@ -47,7 +47,7 @@ const Hero = () => {
                         component="p"
                         sx={{
                             color: "white",
-                            fontSize: "clamp(3rem, 8vw, 8rem)",
+                            fontSize: "clamp(3rem, 7vw, 7rem)",
                             // letterSpacing: ".6rem",
                         }}
                     >
