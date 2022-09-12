@@ -31,21 +31,33 @@ const Hero = () => {
                         </Typography>
                     </a>
                 </Box>
-                <Box sx={{ padding: "12vw 0" }}>
+                <Box sx={{ padding: "14vw 0" }}>
                     <Typography
                         variant="h1"
                         sx={{
                             color: "white",
-                            fontSize: "4rem",
+                            fontSize: "6rem",
+                            lineHeight: "4rem",
                         }}
                     >
-                        Health Insurance, Simplified
+                        Health Insurance,
+                    </Typography>
+                    <Typography
+                        variant="h1"
+                        component="p"
+                        sx={{
+                            color: "white",
+                            fontSize: "6rem",
+                            // letterSpacing: ".6rem",
+                        }}
+                    >
+                        Simplified
                     </Typography>
                     <Typography
                         variant="h2"
                         sx={{
                             color: "var(--fc-gray-400)",
-                            fontSize: "1.2rem",
+                            fontSize: "1.4rem",
                             marginBottom: "2em",
                         }}
                     >
