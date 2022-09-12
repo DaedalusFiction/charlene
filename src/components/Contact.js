@@ -144,7 +144,7 @@ const Contact = () => {
                         <Box>
                             <iframe
                                 title="request-quote"
-                                width="500"
+                                width="300"
                                 scrolling="no"
                                 height="400"
                                 frameborder="0"

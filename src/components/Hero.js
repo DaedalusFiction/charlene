@@ -12,7 +12,7 @@ const Hero = () => {
                 backgroundPosition: "50% 65%",
             }}
         >
-            <Container>
+            <Container maxWidth="xl">
                 <Box
                     sx={{
                         display: "flex",
@@ -36,8 +36,8 @@ const Hero = () => {
                         variant="h1"
                         sx={{
                             color: "white",
-                            fontSize: "6rem",
-                            lineHeight: "4rem",
+                            fontSize: "clamp(3rem, 8vw, 8rem)",
+                            lineHeight: "1.2em",
                         }}
                     >
                         Health Insurance,
@@ -47,7 +47,7 @@ const Hero = () => {
                         component="p"
                         sx={{
                             color: "white",
-                            fontSize: "6rem",
+                            fontSize: "clamp(3rem, 8vw, 8rem)",
                             // letterSpacing: ".6rem",
                         }}
                     >
